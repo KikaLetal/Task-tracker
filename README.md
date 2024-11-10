@@ -1,5 +1,5 @@
 it's a CLI(Command Line Interface) task manager  
-you can you it for managing your tasks 
+you can use it for managing your tasks 
 there's actually nothing to install, just download and launch "task manager.py"
 don't worry, it will create a "data.json" file
 ATTENTION!!!
