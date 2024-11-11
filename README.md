@@ -10,15 +10,15 @@ it's allows few commands, such as:
 1. `add <text>` - add task with `<text>` description
 2. `update <task id> <new description>` - update exist `<task id>` task, by changing it's description on `<new description>`
 3. `delete <task id>` - delete `<task id>` task from list
-4. `markinprogress` <task id> - will change `<task id>`  status from any to "In progress"
+4. `markinprogress <task id>` - will change `<task id>`  status from any to "In progress"
 5. `markdone <task id>` - will change `<task id>` status from any to "Done"
 6. `marktodo <task id>` - will return status "To do" for `<task id> `
 7. `list <!optionally! status>` - display task list with all information, if `<!optionally! status>` is not empty displayed tasks will be filtered by `<!optionally! status>`
 ## `<!optionally! status>` can be:
-1. "to do"
-2. "in progress"
-3. "done"
+1. "to do" or "To do"
+2. "in progress" or "In progress"
+3. "done" or "Done"
    
-**ATTENTION!!!** you should use only this names, you can's write "Done", "In_progress", "TODO" or something like this
+**ATTENTION!!!** you should use only this names, you can't write "In_progress", "TODO" or something like this
 
 https://roadmap.sh/projects/task-tracker
