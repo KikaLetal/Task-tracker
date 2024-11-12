@@ -34,7 +34,12 @@ def add(comma):
 #--------------------------------------------------------------------------------------------------------------------------------
 #updating existing tasks
 def update(value):
-  id, UpdateTask = value.split(maxsplit=1)
+  if len(value.split(maxsplit=1)) > 1:
+    id, UpdateTask = value.split(maxsplit=1) 
+  else:
+    id, UpdateTask = None, None
+
+  if id == None: print("wrong input"); main()
   try:
 
     with open('data.json', "r+") as file:
