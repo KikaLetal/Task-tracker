@@ -192,8 +192,10 @@ def main():
     globals()[func](value)
   except KeyError:
     print("invalid comma")
+    main()
   except AttributeError:
     print("attribute wasn't given")
+    main()
   except TypeError:
     print("wrong attribute")
     main()
